@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<div id="container" style="display: grid; ">
+<div id="container">
     <div id="row1">
         <button id="lsButton">ls</button>
         <select id="lsSelect">
@@ -31,8 +31,6 @@
 </div>
 
 <script type="module">
-    localStorage.setItem("host", "localhost");
-    localStorage.setItem("port", "3000");
     const lsSelect = document.getElementById("lsSelect");
     const lsButton = document.getElementById("lsButton");
     const logTextarea = document.getElementById("logTextarea");
